@@ -1,1 +1,1 @@
-# SqlProject--Spotify-Data-Analysis
+# Sql Project1 - Spotify Data Analysis
