@@ -144,8 +144,8 @@ GROUP BY album, track;
 ```sql
 SELECT * FROM
 (SELECT track,
-	   COALESCE(SUM(CASE WHEN most_played_on='Youtube' THEN stream END),0) AS streamed_on_youtube,
-	   COALESCE(SUM(CASE WHEN most_played_on='Spotify' THEN stream END),0) AS streamed_on_spotify
+        COALESCE(SUM(CASE WHEN most_played_on='Youtube' THEN stream END),0) AS streamed_on_youtube,
+        COALESCE(SUM(CASE WHEN most_played_on='Spotify' THEN stream END),0) AS streamed_on_spotify
 FROM spotify
 GROUP BY track) subquery
 WHERE streamed_on_spotify>streamed_on_youtube AND streamed_on_youtube <> 0;
@@ -157,9 +157,9 @@ WHERE streamed_on_spotify>streamed_on_youtube AND streamed_on_youtube <> 0;
 WITH CTE AS(
 SELECT
       artist,
-	  track,
-	  SUM(views) AS total_views,
-	  DENSE_RANK() OVER(PARTITION BY artist ORDER BY SUM(views) DESC) AS rnk
+      track,
+      SUM(views) AS total_views,
+      DENSE_RANK() OVER(PARTITION BY artist ORDER BY SUM(views) DESC) AS rnk
 FROM spotify
 GROUP BY artist,track
 ORDER BY artist, total_views DESC)
@@ -171,8 +171,8 @@ WHERE rnk<=3;
 ```sql
 SELECT 
       artist,
-	  track,
-	  liveness
+      track,
+      liveness
 FROM spotify
 WHERE liveness>(SELECT AVG(liveness) FROM spotify)
 ORDER BY artist;
@@ -201,8 +201,8 @@ ORDER BY 2 DESC
 WITH CTE AS
 (SELECT 
       artist,
-	  track,
-	  (energy/liveness) AS ratio
+      track,
+      (energy/liveness) AS ratio
 FROM spotify
 WHERE liveness>0
 GROUP BY artist,track,ratio)
