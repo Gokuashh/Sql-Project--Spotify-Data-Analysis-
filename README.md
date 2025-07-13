@@ -2,7 +2,7 @@
 
 [Click Here to get Dataset](https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset)
 
-![Spotify Logo](https://github.com/najirh/najirh-Spotify-Data-Analysis-using-SQL/blob/main/spotify_logo.jpg)
+![Image](https://github.com/user-attachments/assets/9a01aa16-8320-4144-a1f8-518badfc971f)
 
 ## Overview
 Project Overview: Advanced SQL Analysis on Spotify Dataset
