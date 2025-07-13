@@ -1,11 +1,20 @@
-# Spotify Advanced SQL Project and Query Optimization P-6
-Project Category: Advanced
+# Spotify SQL Project
+
 [Click Here to get Dataset](https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset)
 
 ![Spotify Logo](https://github.com/najirh/najirh-Spotify-Data-Analysis-using-SQL/blob/main/spotify_logo.jpg)
 
 ## Overview
-This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
+Project Overview: Advanced SQL Analysis on Spotify Dataset
+
+This project focuses on performing an in-depth analysis of a denormalized Spotify dataset containing detailed information on tracks, albums, and artists. The workflow begins with data normalization, followed by executing a range of SQL queries, categorized by complexity—from basic lookups to intricate, multi-table joins and aggregations.
+
+The key objectives are:
+To strengthen and apply advanced SQL techniques in a structured environment.
+To normalize a real-world denormalized dataset into an optimized relational schema.
+To perform query performance tuning and optimization strategies.
+To derive actionable insights and uncover hidden trends within the Spotify ecosystem.
+Overall, this project simulates a real-world data engineering scenario and helps build strong proficiency in SQL through progressively challenging tasks.
 
 ```sql
 -- create table
