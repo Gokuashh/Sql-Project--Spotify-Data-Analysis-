@@ -11,13 +11,13 @@ This project focuses on performing an in-depth analysis of a denormalized Spotif
 
 The key objectives are:
 
-To strengthen and apply advanced SQL techniques in a structured environment.
+1. To strengthen and apply advanced SQL techniques in a structured environment.
 
-To normalize a real-world denormalized dataset into an optimized relational schema.
+2. To normalize a real-world denormalized dataset into an optimized relational schema.
 
-To perform query performance tuning and optimization strategies.
+3. To perform query performance tuning and optimization strategies.
 
-To derive actionable insights and uncover hidden trends within the Spotify ecosystem.
+4. To derive actionable insights and uncover hidden trends within the Spotify ecosystem.
 
 Overall, this project simulates a real-world data engineering scenario and helps build strong proficiency in SQL through progressively challenging tasks.
 
